@@ -20,6 +20,7 @@ Route::get('/profile','ProfileController@index');
 Route::get('/customer','CustomerController@index');
 
 Route::get('/invoice','InvoiceController@index');
+Route::get('/invoice/detail','InvoiceController@detail');
 Route::get('/invoice/print','InvoiceController@print');
 
 Route::get('/po','POController@index')->name('po-index');
