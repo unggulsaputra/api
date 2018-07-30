@@ -36,7 +36,8 @@
                   <div class="col-sm-6 text-right" style="margin-top: 70px;">
                       <b>Tanggal PO : 12-Dec-2018</b>
                       <br><b>Lama Pembayaran : 2 bulan</b>
-                      <br><b>Tanggal di bayar : 12-Dec-2018</b>
+                      <br><b>Tanggal Penyerahan Barang : 16-Dec-2018</b>
+                      <br><b>Perkiraan Tanggal di bayar : 12-Dec-2018</b>
                       <br><b>Status : <span style="color: red">Belum Lunas</span></b>
                   </div>
                 </div>

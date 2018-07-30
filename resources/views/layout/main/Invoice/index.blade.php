@@ -31,7 +31,7 @@
                   <td id="di_inomer_invoice">123.456.789</td>
                   <td id="di_itanggal_invoice">29-07-2018</td>
                   <td>
-                    <button type="button" class="btn btn-sm btn-info" id="invoice-detail">Detail</button>
+                    <a href="/invoice/detail" type="button" class="btn btn-sm btn-info" id="invoice-detail">Detail</a>
                     <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#edit-invoice" id="invoice-edit">Edit</button>
                     <button type="button" class="btn btn-sm btn-danger" id="hapus"><i class="fa fa-trash"></i> Hapus</button>
                   </td>

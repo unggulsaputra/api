@@ -9,7 +9,7 @@
             <div class="box-body">
             <form id="post-po">
               <div class="row">
-                <div class="col-xs-4">
+                <div class="col-xs-5">
 	                <label>Nama Perusahaan</label>
 	                <div class="form-group">
 	                	<input type="text" class="form-control" id="cnama_perusahaan" name="nama_perusahaan" placeholder="Nama Perusahaan">
@@ -27,13 +27,7 @@
 	                	<input type="text" class="form-control" id="cfax" name="fax" placeholder="Fax">
 	                </div>
                 </div>
-                <div class="col-xs-2">
-	                <label>NPWP</label>
-	                <div class="form-group">
-	                	<input type="text" class="form-control" id="cnpwp" name="npwp" placeholder="NPWP">
-	                </div>
-                </div>
-                <div class="col-xs-2">
+                <div class="col-xs-3">
 	                <label>Nomer PO</label>
 	                <div class="form-group">
 	                	<input type="text" class="form-control" id="cnomer_po" name="nomer_po" placeholder="Nomer PO">
@@ -72,25 +66,37 @@
 	                	</div>
 	                </div>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-2">
 	                <label>Tanggal PO</label>
 	                <div class="form-group">
 	                	<input type="date" class="form-control" id="ctanggal_po" name="tanggal_po" >
 	                </div>
                 </div>
+                <div class="col-xs-2">
+	                <label>Tanggal Penyerahan</label>
+	                <div class="form-group">
+	                	<input type="date" class="form-control" id="ctanggal_penyerahan" name="tanggal_penyerahan" >
+	                </div>
+                </div>
               </div>
 
               <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-4">
 	                <label>Alamat Perusahaan</label>
 	                <div class="form-group">
 	                	<textarea rows="3" id="calamat_perusahaan" name="alamat_perusahaan" class="form-control"></textarea>
 	                </div>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-4">
 	                <label>Tujuan Pengiriman</label>
 	                <div class="form-group">
 	                	<textarea rows="3" id="ctujuan_pengiriman" name="tujuan_pengiriman" class="form-control"></textarea>
+	                </div>
+                </div>
+                <div class="col-xs-4">
+	                <label>Scan PO</label>
+	                <div class="form-group">
+	                	<input type="file" class="form-control" id="cscan_po" name="cscan_po" placeholder="Scan PO">
 	                </div>
                 </div>
               </div>

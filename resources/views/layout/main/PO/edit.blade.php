@@ -21,6 +21,12 @@
 	                	<input type="date" class="form-control" id="etanggal_po" name="etanggal_po" >
 	                </div>
                 </div>
+                <div class="col-xs-4">
+	                <label>Tanggal Penyerahan</label>
+	                <div class="form-group">
+	                	<input type="date" class="form-control" id="etanggal_penyerahan" name="etanggal_penyerahan" >
+	                </div>
+                </div>
               </div>
               <div class="row">
                 <div class="col-xs-4">
