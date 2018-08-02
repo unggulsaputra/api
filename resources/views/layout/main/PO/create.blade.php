@@ -1,4 +1,5 @@
 @extends('layout.blank')
+@section('content-header','Purchase Order')
 @section('content')
 
 <div class="col-lg-10">

@@ -1,4 +1,5 @@
 @extends('layout.blank')
+@section('content-header','Faktur Pajak')
 @section('content')
     <section class="invoice">
       <!-- title row -->
@@ -39,6 +40,7 @@
         <!-- /.col -->
         <div class="col-sm-4 invoice-col">
           <b>No Invoice : 123456789</b><br>
+          <b>No PO : 123.456.789</b><br>
           <br>
           <b>Tanggal Invoice :</b> 29 Juli 2018 <br>
           <b>Nomer Izin Usaha :</b> 123456789<br>

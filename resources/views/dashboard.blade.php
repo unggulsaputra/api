@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 @include('layout.master.head')
+@section('content-header','Dashboard')
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
@@ -18,7 +19,6 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     @include('layout.master.content-header')
-
     <!-- Main content -->
     <section class="content">
       <!-- Small boxes (Stat box) -->

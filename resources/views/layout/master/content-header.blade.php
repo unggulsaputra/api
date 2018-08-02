@@ -1,6 +1,6 @@
 <section class="content-header">
       <h1>
-        Dashboard
+        @yield('content-header')
         <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">

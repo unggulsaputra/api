@@ -1,4 +1,5 @@
 @extends('layout.blank')
+@section('content-header','Customer')
 @section('content')
 <div class="col-xs-12">
 <div class="box">

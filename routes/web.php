@@ -19,6 +19,10 @@ Route::get('/profile','ProfileController@index');
 
 Route::get('/customer','CustomerController@index');
 
+Route::get('/faktur-pajak','FakturPajakController@index');
+
+Route::get('/surat-jalan','SuratJalanController@index');
+
 Route::get('/invoice','InvoiceController@index');
 Route::get('/invoice/detail','InvoiceController@detail');
 Route::get('/invoice/print','InvoiceController@print');

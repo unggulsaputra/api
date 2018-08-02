@@ -93,6 +93,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-info" id="pshow_scanner">Show Scan</button>
                 <button type="button" class="btn btn-success" id="lunas">Lunas</button>
                 <a href="/po/edit" type="button" id="edit-po" data-id="1" class="btn btn-primary" >Edit</a>
               </div>
